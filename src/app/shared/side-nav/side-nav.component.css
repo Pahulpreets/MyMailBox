@@ -1,0 +1,45 @@
+.compose_btn{
+    text-align: center;
+    background: #0496be;
+    padding: 30px 0px;
+}
+
+.compose_btn a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+}
+
+.material-icons{
+    color: #fff;
+    font-size: 18px;
+}
+
+.compose_btn .material-icons{
+    margin-left: 10px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.tabs{
+    font-size: 20px;
+    background: #34393d;
+}
+
+.count-right{
+    color: #fff;
+}
+
+.tab{
+    margin: 0px 15px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs .tab i {
+    margin-right: 15px;
+}

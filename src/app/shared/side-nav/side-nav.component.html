@@ -1,0 +1,54 @@
+<div class="side-nav-container">
+    <div class="compose_btn">
+        <a href="#">Compose</a>
+        <i class="material-icons">edit</i>
+    </div>
+    <div class="tabs">
+        <div style="padding: 80px 0px;">
+            <div class="tab">
+                <div class="name-left">
+                    <a routerLink="/inbox">
+                        <i class="material-icons">inbox</i>
+                        <span>Inbox</span>
+                    </a>
+                </div>
+                <div class="count-right">
+                    {{inbox}}
+                </div>
+            </div>
+            <div class="tab">
+                <div class="name-left">
+                    <a routerLink="/sent">
+                        <i class='fas fa-paper-plane'></i>
+                        <span>Sent</span>
+                    </a>
+                </div>
+                <div class="count-right">
+                    0
+                </div>
+            </div>
+            <div class="tab">
+                <div class="name-left">
+                    <a routerLink="/draft">
+                        <i class="fa fa-pencil-square-o"></i>
+                        <span>Drafts</span>
+                    </a>
+                </div>
+                <div class="count-right">
+                    0
+                </div>
+            </div>
+            <div class="tab">
+                <div class="name-left">
+                    <a routerLink="/trash">
+                        <i class="fa fa-trash-o"></i>
+                        <span>Trash</span>
+                    </a>
+                </div>
+                <div class="count-right">
+                    {{trash}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

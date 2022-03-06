@@ -1,0 +1,28 @@
+.main-container{
+    padding: 60px;
+    background: #e6e4e4;
+}
+
+.main-row {
+    display: flex;
+    background: #fff;
+    height: 500px;
+
+}
+
+.side-nav{
+    width: 20%;
+    border: 1px solid #585656;
+}
+
+.mail-list{
+    width: 30%;
+    border: 1px solid #585656;
+    overflow: auto;
+}
+
+.preview-mail{
+    width: 50%;
+    border: 1px solid #585656;
+    overflow: auto;
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "title":"Abc",
+        "subject":"Abc",
+        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, dolores alias esse non quibusdam pariatur et ea! Qui, possimus fugit? Error, sunt. Magnam ullam quae voluptate dolore tempora, vitae adipisci.",
+        "date":"Jan 09, 2022",
+        "delete":false,
+        "seen":false
+    },
+    {
+        "id":2,
+        "title":"Abc",
+        "subject":"Abc",
+        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, dolores alias esse non quibusdam pariatur et ea! Qui, possimus fugit? Error, sunt. Magnam ullam quae voluptate dolore tempora, vitae adipisci.",
+        "date":"Jan 09, 2022",
+        "delete":false,
+        "seen":false
+    },
+    {
+        "id":3,
+        "title":"Abc",
+        "subject":"Abc",
+        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, dolores alias esse non quibusdam pariatur et ea! Qui, possimus fugit? Error, sunt. Magnam ullam quae voluptate dolore tempora, vitae adipisci.",
+        "date":"Jan 09, 2022",
+        "delete":false,
+        "seen":false
+    },
+    {
+        "id":4,
+        "title":"Abc",
+        "subject":"Abc",
+        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, dolores alias esse non quibusdam pariatur et ea! Qui, possimus fugit? Error, sunt. Magnam ullam quae voluptate dolore tempora, vitae adipisci.",
+        "date":"Jan 09, 2022",
+        "delete":false,
+        "seen":false
+    },
+    {
+        "id":5,
+        "title":"Abc",
+        "subject":"Abc",
+        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, dolores alias esse non quibusdam pariatur et ea! Qui, possimus fugit? Error, sunt. Magnam ullam quae voluptate dolore tempora, vitae adipisci.",
+        "date":"Jan 09, 2022",
+        "delete":false,
+        "seen":false
+    }
+]

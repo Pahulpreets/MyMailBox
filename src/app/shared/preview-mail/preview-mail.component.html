@@ -1,0 +1,23 @@
+<div class="mail-list-main">
+    <div [ngClass]="selectedMail !== '' ? 'mail-info' : 'mail-info-empty' ">
+        <div class="mail-title">
+            <div>
+                <span>{{selectedMail?.title}}</span>
+            </div>
+            <div *ngIf="selectedMail">
+                <i class="fa fa-trash-o" (click)="deleteMail(selectedMail.id)"></i>
+            </div>
+        </div>
+        <div class="lower-mail-content">
+            <div class="mail-subject">
+                <span>{{selectedMail?.subject}}</span>
+            </div>
+            <div class="mail-date">
+                <span>{{selectedMail?.date}}</span>
+            </div>       
+        </div>
+    </div>
+    <div class="mail-text">
+        <p>{{selectedMail?.text}}</p>
+    </div>
+</div>

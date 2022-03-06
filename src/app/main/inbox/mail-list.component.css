@@ -1,0 +1,36 @@
+.mail-info{
+    padding: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #585656;
+}
+
+.mail-div{
+    color: #808080;
+}
+
+.mail-div-select{
+    color: #12a3d3;
+}
+
+.mail-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.mail-title i{
+    font-size: 8px;
+    color: #12a3d3;
+}
+
+.lower-mail-content{
+    display: flex; 
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.empty-mail{
+    text-align: center;
+    font-size: 18px;
+    color: #808080;
+}    

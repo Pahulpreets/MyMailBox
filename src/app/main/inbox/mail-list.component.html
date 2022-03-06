@@ -1,0 +1,25 @@
+<div class="mail-list-main">
+    <div class="mail-info" *ngFor="let email of emails">
+        <div [ngClass]="selectedMailId === email.id ? 'mail-div-select' : 'mail-div'" (click)="onSelect(email)">
+            <div class="mail-title">
+                <div>
+                    <span>{{email?.title}}</span>
+                </div>
+                <div class="seen-dot" *ngIf="email.seen === false">
+                    <i class='fas fa-circle'></i>
+                </div>
+            </div>
+            <div class="lower-mail-content">
+                <div class="mail-subject">
+                    <span>{{email?.subject}}</span>
+                </div>
+                <div class="mail-date">
+                    <span>{{email?.date}}</span>
+                </div>       
+            </div>
+        </div>  
+    </div>
+    <div class="empty-mail" *ngIf="emails.length === 0">
+        <span>Nothing to see here, great job!</span>
+    </div>
+</div>
